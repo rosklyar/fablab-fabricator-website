@@ -100,16 +100,38 @@ body {
 }
 
 .equipment-block {
+    // background:
+    //     -webkit-linear-gradient(45deg, hsla(217, 93%, 89%, 1) 0%, hsla(217, 93%, 89%, 0) 70%),
+    //     -webkit-linear-gradient(315deg, hsla(168, 94%, 81%, 1) 10%, hsla(168, 94%, 81%, 0) 80%),
+    //     -webkit-linear-gradient(225deg, hsla(207, 100%, 86%, 1) 10%, hsla(207, 100%, 86%, 0) 80%),
+    //     -webkit-linear-gradient(135deg, hsla(61, 100%, 80%, 1) 100%, hsla(61, 100%, 80%, 0) 70%);
+    // background:
+    //     linear-gradient(45deg, hsla(217, 93%, 89%, 1) 0%, hsla(217, 93%, 89%, 0) 70%),
+    //     linear-gradient(135deg, hsla(168, 94%, 81%, 1) 10%, hsla(168, 94%, 81%, 0) 80%),
+    //     linear-gradient(225deg, hsla(207, 100%, 86%, 1) 10%, hsla(207, 100%, 86%, 0) 80%),
+    //     linear-gradient(315deg, hsla(61, 100%, 80%, 1) 100%, hsla(61, 100%, 80%, 0) 70%);
+
+	// background:
+	// 	-webkit-linear-gradient(45deg, hsla(179, 95%, 44%, 1) 0%, hsla(179, 95%, 44%, 0) 70%),
+	// 	-webkit-linear-gradient(315deg, hsla(199, 91%, 65%, 1) 10%, hsla(199, 91%, 65%, 0) 80%),
+	// 	-webkit-linear-gradient(225deg, hsla(193, 98%, 47%, 1) 10%, hsla(193, 98%, 47%, 0) 80%),
+	// 	-webkit-linear-gradient(135deg, hsla(238, 92%, 54%, 1) 100%, hsla(238, 92%, 54%, 0) 70%);
+	// background:
+	// 	linear-gradient(45deg, hsla(179, 95%, 44%, 1) 0%, hsla(179, 95%, 44%, 0) 70%),
+	// 	linear-gradient(135deg, hsla(199, 91%, 65%, 1) 10%, hsla(199, 91%, 65%, 0) 80%),
+	// 	linear-gradient(225deg, hsla(193, 98%, 47%, 1) 10%, hsla(193, 98%, 47%, 0) 80%),
+	// 	linear-gradient(315deg, hsla(238, 92%, 54%, 1) 100%, hsla(238, 92%, 54%, 0) 70%);
+
     background:
-        -webkit-linear-gradient(45deg, hsla(217, 93%, 89%, 1) 0%, hsla(217, 93%, 89%, 0) 70%),
-        -webkit-linear-gradient(315deg, hsla(168, 94%, 81%, 1) 10%, hsla(168, 94%, 81%, 0) 80%),
-        -webkit-linear-gradient(225deg, hsla(207, 100%, 86%, 1) 10%, hsla(207, 100%, 86%, 0) 80%),
-        -webkit-linear-gradient(135deg, hsla(61, 100%, 80%, 1) 100%, hsla(61, 100%, 80%, 0) 70%);
-    background:
-        linear-gradient(45deg, hsla(217, 93%, 89%, 1) 0%, hsla(217, 93%, 89%, 0) 70%),
-        linear-gradient(135deg, hsla(168, 94%, 81%, 1) 10%, hsla(168, 94%, 81%, 0) 80%),
-        linear-gradient(225deg, hsla(207, 100%, 86%, 1) 10%, hsla(207, 100%, 86%, 0) 80%),
-        linear-gradient(315deg, hsla(61, 100%, 80%, 1) 100%, hsla(61, 100%, 80%, 0) 70%);
+        -webkit-linear-gradient(45deg, hsla(224, 95%, 76%, 1) 0%, hsla(224, 95%, 76%, 0) 70%),
+        -webkit-linear-gradient(135deg, hsla(199, 91%, 74%, 1) 10%, hsla(199, 91%, 74%, 0) 80%),
+        -webkit-linear-gradient(225deg, hsla(193, 98%, 75%, 1) 10%, hsla(193, 98%, 75%, 0) 80%),
+        -webkit-linear-gradient(315deg, hsla(279, 92%, 75%, 1) 100%, hsla(279, 92%, 75%, 0) 70%);
+	background:
+        linear-gradient(45deg, hsla(224, 95%, 76%, 1) 0%, hsla(224, 95%, 76%, 0) 70%),
+        linear-gradient(135deg, hsla(199, 91%, 74%, 1) 10%, hsla(199, 91%, 74%, 0) 80%),
+        linear-gradient(225deg, hsla(193, 98%, 75%, 1) 10%, hsla(193, 98%, 75%, 0) 80%),
+        linear-gradient(315deg, hsla(279, 92%, 75%, 1) 100%, hsla(279, 92%, 75%, 0) 70%);
 
     padding: 3em 0;
 
