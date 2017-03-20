@@ -11,12 +11,50 @@ h1 {
 }
 
 .header {
-    background-color: $head_color;
-
+    display: flex;
 
     text-align: center;
 
     width: 100%;
+    height: 100vh;
+
+    // background:
+    //     -webkit-linear-gradient(45deg, hsla(203, 94%, 49%, 1) 0%, hsla(203, 94%, 49%, 0) 70%),
+    //     -webkit-linear-gradient(315deg, hsla(126, 98%, 41%, 1) 10%, hsla(126, 98%, 41%, 0) 80%),
+    //     -webkit-linear-gradient(225deg, hsla(159, 98%, 49%, 1) 10%, hsla(159, 98%, 49%, 0) 80%),
+    //     -webkit-linear-gradient(135deg, hsla(304, 98%, 48%, 1) 100%, hsla(304, 98%, 48%, 0) 70%);
+    // background:
+    //     linear-gradient(45deg, hsla(203, 94%, 49%, 1) 0%, hsla(203, 94%, 49%, 0) 70%),
+    //     linear-gradient(135deg, hsla(126, 98%, 41%, 1) 10%, hsla(126, 98%, 41%, 0) 80%),
+    //     linear-gradient(225deg, hsla(159, 98%, 49%, 1) 10%, hsla(159, 98%, 49%, 0) 80%),
+    //     linear-gradient(315deg, hsla(304, 98%, 48%, 1) 100%, hsla(304, 98%, 48%, 0) 70%);
+
+
+    // background:
+    //     -webkit-linear-gradient(45deg, hsla(173, 99%, 86%, 1) 0%, hsla(173, 99%, 86%, 0) 70%),
+    //     -webkit-linear-gradient(315deg, hsla(231, 88%, 79%, 1) 10%, hsla(231, 88%, 79%, 0) 80%),
+    //     -webkit-linear-gradient(225deg, hsla(191, 98%, 59%, 1) 10%, hsla(191, 98%, 59%, 0) 80%),
+    //     -webkit-linear-gradient(135deg, hsla(148, 98%, 46%, 1) 100%, hsla(148, 98%, 46%, 0) 70%);
+    // background:
+    //     linear-gradient(45deg, hsla(173, 99%, 86%, 1) 0%, hsla(173, 99%, 86%, 0) 70%),
+    //     linear-gradient(135deg, hsla(231, 88%, 79%, 1) 10%, hsla(231, 88%, 79%, 0) 80%),
+    //     linear-gradient(225deg, hsla(191, 98%, 59%, 1) 10%, hsla(191, 98%, 59%, 0) 80%),
+    //     linear-gradient(315deg, hsla(148, 98%, 46%, 1) 100%, hsla(148, 98%, 46%, 0) 70%);
+
+
+    background:
+        -webkit-linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
+        -webkit-linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
+        -webkit-linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
+        -webkit-linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
+    background:
+        linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
+        linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
+        linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
+        linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
+
+
+
 }
 
 .head-image {
@@ -25,14 +63,4 @@ h1 {
 
     width: 100%;
     padding: 0 10em;
-}
-
-.inner-header {
-    // background-image: url("//assets/backgrounds/makers.jpg");
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: bottom;
-    // background-size: contain;
-
-    // min-height: 45em;
 }
