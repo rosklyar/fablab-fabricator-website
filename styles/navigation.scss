@@ -1,0 +1,21 @@
+
+.navbar-default {
+    background: none !important;
+    border: none !important;
+
+    // color: white !important;
+}
+
+.navbar-nav a {
+
+    font-size: 12pt;
+
+    color: #fff !important;
+    padding: 0.5em 1em !important;
+    padding-top: 2em !important;
+}
+
+.navbar-nav .active > a {
+    background: none !important;
+    border-bottom: 3px solid white;
+}
