@@ -13,16 +13,18 @@
 }
 @include fontFace("Gothic", "assets/fonts/CenturyGothicRegular");
 
+.header-heading {
+    color: #fff;
+}
+
 body {
     background: $background_color;
     font-family: "Gothic";
 }
 
 .header {
-    display: flex;
-    text-align: center;
     width: 100%;
-    height: 100vh;
+    // height: 100vh;
     // background:
     //     -webkit-linear-gradient(45deg, hsla(203, 94%, 49%, 1) 0%, hsla(203, 94%, 49%, 0) 70%),
     //     -webkit-linear-gradient(315deg, hsla(126, 98%, 41%, 1) 10%, hsla(126, 98%, 41%, 0) 80%),
@@ -45,6 +47,13 @@ body {
     //     linear-gradient(315deg, hsla(148, 98%, 46%, 1) 100%, hsla(148, 98%, 46%, 0) 70%);
     background: -webkit-linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%), -webkit-linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%), -webkit-linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%), -webkit-linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
     background: linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%), linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%), linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%), linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
+}
+
+.inner-header {
+    // display: flex;
+    // justify-content: center;
+
+    padding: 10em 0;
 }
 
 .head-image {
