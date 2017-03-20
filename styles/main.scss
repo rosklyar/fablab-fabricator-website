@@ -47,6 +47,10 @@ body {
         linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
 }
 
+.block {
+    margin-bottom: 3em;
+}
+
 .header-text {
     color: #fff;
     padding-left: 5em;
@@ -67,7 +71,28 @@ body {
 
 .service-icon {
     padding: 5em 8em;
+    padding-bottom: 0;
     text-align: center;
+}
+
+.link-row {
+    margin-top: 5em;
+    text-align: center;
+
+
+    a {
+        padding: 1em;
+        border: 3px solid $button_border;
+        border-radius: $button_radius;
+
+        color: $button_border;
+
+        font-size: 14pt;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 .title-price {
