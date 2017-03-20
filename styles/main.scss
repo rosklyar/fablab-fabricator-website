@@ -1,23 +1,28 @@
-
 @import "colors";
+@mixin fontFace($family,$src,$style: normal,$weight: normal) {
+     @font-face{
+        font-family: $family;
+        src: url('#{$src}.eot'); // IE9 compat
+        src: url('#{$src}.eot?#iefix') format('embedded-opentype'),// IE8 and below
+            url('#{$src}.woff') format('woff'),// standards
+            url('#{$src}.ttf') format('truetype'),// Safari, Android, iOS
+            url( '#{$src}.svg##{$family}') format('svg'); // legacy iOS
+        font-style: $style;
+        font-weight: $weight;
+    }
+}
+@include fontFace("Gothic", "assets/fonts/CenturyGothicRegular");
 
 body {
     background: $background_color;
-
-}
-
-h1 {
-    margin-top: 0;
+    font-family: "Gothic";
 }
 
 .header {
     display: flex;
-
     text-align: center;
-
     width: 100%;
     height: 100vh;
-
     // background:
     //     -webkit-linear-gradient(45deg, hsla(203, 94%, 49%, 1) 0%, hsla(203, 94%, 49%, 0) 70%),
     //     -webkit-linear-gradient(315deg, hsla(126, 98%, 41%, 1) 10%, hsla(126, 98%, 41%, 0) 80%),
@@ -28,8 +33,6 @@ h1 {
     //     linear-gradient(135deg, hsla(126, 98%, 41%, 1) 10%, hsla(126, 98%, 41%, 0) 80%),
     //     linear-gradient(225deg, hsla(159, 98%, 49%, 1) 10%, hsla(159, 98%, 49%, 0) 80%),
     //     linear-gradient(315deg, hsla(304, 98%, 48%, 1) 100%, hsla(304, 98%, 48%, 0) 70%);
-
-
     // background:
     //     -webkit-linear-gradient(45deg, hsla(173, 99%, 86%, 1) 0%, hsla(173, 99%, 86%, 0) 70%),
     //     -webkit-linear-gradient(315deg, hsla(231, 88%, 79%, 1) 10%, hsla(231, 88%, 79%, 0) 80%),
@@ -40,27 +43,12 @@ h1 {
     //     linear-gradient(135deg, hsla(231, 88%, 79%, 1) 10%, hsla(231, 88%, 79%, 0) 80%),
     //     linear-gradient(225deg, hsla(191, 98%, 59%, 1) 10%, hsla(191, 98%, 59%, 0) 80%),
     //     linear-gradient(315deg, hsla(148, 98%, 46%, 1) 100%, hsla(148, 98%, 46%, 0) 70%);
-
-
-    background:
-        -webkit-linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
-        -webkit-linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
-        -webkit-linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
-        -webkit-linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
-    background:
-        linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
-        linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
-        linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
-        linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
-
-
-
+    background: -webkit-linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%), -webkit-linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%), -webkit-linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%), -webkit-linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
+    background: linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%), linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%), linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%), linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
 }
 
 .head-image {
-
     margin-top: 30em;
-
     width: 100%;
     padding: 0 10em;
 }
