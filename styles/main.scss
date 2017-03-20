@@ -3,4 +3,36 @@
 
 body {
     background: $background_color;
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.header {
+    background-color: $head_color;
+
+
+    text-align: center;
+
+    width: 100%;
+}
+
+.head-image {
+
+    margin-top: 30em;
+
+    width: 100%;
+    padding: 0 10em;
+}
+
+.inner-header {
+    // background-image: url("//assets/backgrounds/makers.jpg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: bottom;
+    // background-size: contain;
+
+    // min-height: 45em;
 }
