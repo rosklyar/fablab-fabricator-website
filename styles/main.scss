@@ -19,8 +19,18 @@ body {
     font-family: "Gothic";
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: $blue;
+}
+
 .block {
-    margin-bottom: 3em;
+    padding-top: 8em;
+    // padding-bottom: 8em;
+
+    .block-title {
+        text-align: center;
+        margin-top: 0em;
+    }
 }
 
 .service-icon {
@@ -53,10 +63,10 @@ body {
     color: #BDBDBD;
 }
 
-.equipment-block {
-    padding: 3em 0;
-
-    h1 {
-        text-align: center;
-    }
-}
+// .equipment-block {
+//     padding: 3em 0;
+//
+//     h1 {
+//         text-align: center;
+//     }
+// }
