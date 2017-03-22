@@ -42,3 +42,17 @@
         padding-bottom: 0;
     }
 }
+
+.members {
+    $side-padding: 7em;
+    padding-left: $side-padding;
+    padding-right: $side-padding;
+}
+
+.table-members {
+    margin-top: 4em;
+}
+
+.table-members tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
