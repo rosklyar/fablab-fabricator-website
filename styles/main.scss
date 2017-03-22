@@ -1,10 +1,11 @@
 @import "mixins/fontFace";
 @import "mixins/gradient";
 
+@import "palette";
 @import "colors";
 @import "navigation";
-
 @import "headers";
+@import "blocks";
 
 
 @include fontFace("Gothic", "assets/fonts/CenturyGothicRegular");
@@ -21,9 +22,6 @@ body {
 .block {
     margin-bottom: 3em;
 }
-
-
-
 
 .service-icon {
     padding: 5em 8em;
