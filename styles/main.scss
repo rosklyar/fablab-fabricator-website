@@ -23,35 +23,6 @@ h1, h2, h3, h4, h5, h6 {
     color: $blue;
 }
 
-.block {
-    padding-top: 8em;
-    // padding-bottom: 8em;
-
-    .block-title {
-        text-align: center;
-        margin-top: 0em;
-    }
-}
-
-.service-icon {
-    padding-bottom: 0;
-    text-align: center;
-
-    .title {
-        margin-top: 2em;
-    }
-
-    .title-price {
-        color: #BDBDBD;
-    }
-
-    .img-wrap {
-        // padding: 5em 8em;
-        padding: 5em;
-        padding-bottom: 0;
-    }
-}
-
 .link-row {
     margin-top: 5em;
     text-align: center;
@@ -71,13 +42,3 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
     }
 }
-
-
-
-// .equipment-block {
-//     padding: 3em 0;
-//
-//     h1 {
-//         text-align: center;
-//     }
-// }
