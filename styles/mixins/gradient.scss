@@ -1,0 +1,13 @@
+@mixin gradient-bg($c1, $c2, $c3, $c4) {
+    background:
+        -webkit-linear-gradient($c1),
+        -webkit-linear-gradient($c2),
+        -webkit-linear-gradient($c3),
+        -webkit-linear-gradient($c4);
+
+    background:
+        linear-gradient($c1),
+        linear-gradient($c2),
+        linear-gradient($c3),
+        linear-gradient($c4);
+}

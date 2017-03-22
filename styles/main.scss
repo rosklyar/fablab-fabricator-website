@@ -1,7 +1,12 @@
+@import "mixins/fontFace";
+@import "mixins/gradient";
+
 @import "colors";
 @import "navigation";
 
-@import "fontFace";
+@import "headers";
+
+
 @include fontFace("Gothic", "assets/fonts/CenturyGothicRegular");
 
 .header-heading {
@@ -13,55 +18,12 @@ body {
     font-family: "Gothic";
 }
 
-.blue-head {
-    margin-top: 2em;
-    color: $head_color;
-
-    text-align: center;
-}
-
-.header {
-    width: 100%;
-
-    // background-color: hsla(193, 98%, 63%, 1);
-
-    background:
-        -webkit-linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
-        -webkit-linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
-        -webkit-linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
-        -webkit-linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
-    background:
-        linear-gradient(45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
-        linear-gradient(135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
-        linear-gradient(225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
-        linear-gradient(315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%);
-}
-
-.header-laser {
-    background-color: #E3000E;
-}
-
 .block {
     margin-bottom: 3em;
 }
 
-.header-text {
-    color: #fff;
-    padding-left: 5em;
-}
 
-.inner-header {
-    // display: flex;
-    // justify-content: center;
 
-    padding: 10em 0;
-}
-
-.head-image {
-    margin-top: 30em;
-    width: 100%;
-    padding: 0 10em;
-}
 
 .service-icon {
     padding: 5em 8em;

@@ -1,0 +1,35 @@
+
+.header {
+    width: 100%;
+
+    @include gradient-bg($main-head-bg);
+}
+
+.header-laser {
+    background-color: #E3000E;
+}
+
+.blue-head {
+    margin-top: 2em;
+    color: $head_color;
+
+    text-align: center;
+}
+
+.header-text {
+    color: #fff;
+    padding-left: 5em;
+}
+
+.inner-header {
+    // display: flex;
+    // justify-content: center;
+
+    padding: 10em 0;
+}
+
+.head-image {
+    margin-top: 30em;
+    width: 100%;
+    padding: 0 10em;
+}
