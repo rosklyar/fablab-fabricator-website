@@ -2,6 +2,9 @@
 .block {
     padding-top: 8em;
 
+    // margin-left: 10em;
+    // margin-right: 10em;
+
     .block-title {
         text-align: center;
         margin-top: 0em;
@@ -13,6 +16,11 @@
 
 .service-icon {
     padding-bottom: 0;
+
+    $side-padding: 2em;
+    padding-left: $side-padding;
+    padding-right: $side-padding;
+
     text-align: center;
 
     .title {
@@ -24,12 +32,13 @@
     }
 
     .description {
-
+        // margin-left: 4em;
+        // margin-right: 4em;
     }
 
     .img-wrap {
         // padding: 5em 8em;
-        padding: 5em;
+        padding: 6.5em;
         padding-bottom: 0;
     }
 }
