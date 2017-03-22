@@ -1,4 +1,5 @@
 @mixin gradient-bg($c1, $c2, $c3, $c4) {
+
     background:
         -webkit-linear-gradient($c1),
         -webkit-linear-gradient($c2),
