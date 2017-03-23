@@ -210,3 +210,23 @@
         margin-top: 3em;
     }
 }
+
+.equipment-list {
+
+    .equipment {
+
+        padding-top: 4em;
+        padding-bottom: 4em;
+
+        border-bottom: 1px solid $equipment-border;
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .type {
+            color: $equipment-type;
+        }
+    }
+
+}
