@@ -74,7 +74,19 @@
         border-left: 1px solid $border-color;
         // border-top: 1px solid $border-color;
 
-        color: $green;
+        // color: $green;
+    }
+
+    .members-circle {
+        width: 1.5em;
+        height: 1.5em;
+        background: $green;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        border-radius: 1em;
+
     }
 
     .left {
@@ -95,25 +107,25 @@
         }
     }
 
-    // th:first-child {
-    //     border-radius: $border-radius 0 0 0;
-    // }
-    //
-    // th:last-child {
-    //     border-radius: 0 $border-radius 0 0;
-    // }
-    //
-    // th:only-child{
-    //     border-radius: $border-radius $border-radius 0 0;
-    // }
-    //
-    // tr:last-child td:first-child {
-    //     border-radius: 0 0 0 $border-radius;
-    // }
-    //
-    // tr:last-child td:last-child {
-    //     border-radius: 0 0 $border-radius 0;
-    // }
+    th:first-child {
+        border-radius: $border-radius 0 0 0;
+    }
+
+    th:last-child {
+        border-radius: 0 $border-radius 0 0;
+    }
+
+    th:only-child{
+        border-radius: $border-radius $border-radius 0 0;
+    }
+
+    tr:last-child td:first-child {
+        border-radius: 0 0 0 $border-radius;
+    }
+
+    tr:last-child td:last-child {
+        border-radius: 0 0 $border-radius 0;
+    }
 
     h1 {
         margin: 0.5em;
@@ -124,3 +136,8 @@
 .table-members tr:last-child td:first-child {
     border-bottom-left-radius: 10px !important;
 }
+
+// .glyphicon-custom-circle {
+//     background-color: $green;
+//     width: 100%;
+// }
