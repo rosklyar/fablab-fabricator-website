@@ -28,3 +28,22 @@
         padding: 0 10em;
     }
 }
+
+.header-small {
+    @extend .header;
+
+    background: $blue;
+
+    .inner-header {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 4em;
+    }
+
+    .header-text {
+        padding-left: 0;
+        padding-top: 6em;
+    }
+}
