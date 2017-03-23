@@ -141,3 +141,33 @@
 //     background-color: $green;
 //     width: 100%;
 // }
+
+.contacts {
+
+    .block-title {
+        text-align: left;
+        margin-bottom: 2em;
+    }
+
+    .contact-icon {
+        padding-right: 0;
+    }
+
+    .row {
+        margin-bottom: 1em;
+    }
+
+    .contact {
+        padding-left: 0;
+    }
+}
+
+.footer {
+    background-color: $footer-color;
+    color: #9E9E9E;
+    margin-top: 8em;
+
+    padding-top: 4em;
+    padding-bottom: 2em;
+    // margin-bottom: 2em;
+}
