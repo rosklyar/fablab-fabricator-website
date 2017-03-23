@@ -227,6 +227,15 @@
         .type {
             color: $equipment-type;
         }
+
+        .thumb-col {
+            text-align: center;
+        }
+        .thumb {
+            width: 50%;
+            margin-left: auto;
+            margin-right: 3em;
+        }
     }
 
 }
