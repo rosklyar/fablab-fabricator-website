@@ -178,6 +178,7 @@
 
     .nav-title {
         margin-top: 0em;
+        margin-bottom: 0.6em;
         color: $footer-heading;
     }
     .bottom-nav {
@@ -236,6 +237,35 @@
             margin-left: auto;
             margin-right: 3em;
         }
+
+
+        .price-round {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: $blue;
+
+            $size: 10em;
+            width: $size;
+            height: $size;
+
+            border-radius: $size;
+
+            // padding: 2vh;
+
+            .price {
+                margin: 0;
+                color: white;
+            }
+        }
+    }
+
+    :last-child {
+        border: none;
     }
 
 }
