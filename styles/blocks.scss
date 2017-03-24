@@ -262,6 +262,10 @@
                 color: white;
             }
         }
+
+        .price-manager {
+            background-color: darken($blue, 25%);
+        }
     }
 
     :last-child {
@@ -270,7 +274,10 @@
 
     .price-note {
         margin-top: 5em;
-        color: #BDBDBD;
+
+        h6 {
+            color: #BDBDBD;
+        }
     }
 
 }
