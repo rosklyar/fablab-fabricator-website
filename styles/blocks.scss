@@ -17,7 +17,7 @@
 .service-icon {
     padding-bottom: 0;
 
-    $side-padding: 2em;
+    $side-padding: 2vw;
     padding-left: $side-padding;
     padding-right: $side-padding;
 
@@ -28,7 +28,7 @@
     }
 
     .title {
-        margin-top: 2em;
+        margin-top: 2vw;
     }
 
     .title-price {
@@ -41,10 +41,21 @@
     }
 
     .img-wrap {
-        // padding: 5em 8em;
-        padding: 6.5em;
+        // padding: 6.5em;
+        padding: 6.5vw;
         padding-bottom: 0;
     }
+
+    // @media (max-width: 769px) {
+    //     .img-wrap {
+    //         padding: 4em;
+    //         padding-bottom: 0;
+    //     }
+    //
+    //     .title {
+    //         // margin-top: 0.5em;
+    //     }
+    // }
 }
 
 .members {
@@ -164,6 +175,11 @@
     .contact {
         padding-left: 0;
     }
+
+    .map {
+        float: right;
+    }
+
 }
 
 .footer {
