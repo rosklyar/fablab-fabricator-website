@@ -281,3 +281,31 @@
     }
 
 }
+
+
+.equipment-detail {
+
+    // .book-block {
+    //     text-align: center;
+    // }
+
+    .btn-book {
+        font-size: 14pt;
+        padding: 1em;
+
+        color: #fff;
+        background-color: $blue;
+    }
+
+    .specs {
+        margin-top: 2em;
+
+        .title {
+            width: 20%;
+        }
+
+        :first-child > td {
+            border-top: none;
+        }
+    }
+}
