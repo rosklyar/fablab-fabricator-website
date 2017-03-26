@@ -59,7 +59,7 @@
 }
 
 .members {
-    $side-padding: 7em;
+    $side-padding: 7vw;
     padding-left: $side-padding;
     padding-right: $side-padding;
 }
@@ -93,8 +93,8 @@
     }
 
     .members-circle {
-        width: 1.5em;
-        height: 1.5em;
+        width: 1.5vw;
+        height: 1.5vw;
         background: $green;
 
         margin-left: auto;
