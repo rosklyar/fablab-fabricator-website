@@ -282,23 +282,28 @@
 
 }
 
+.wiki-block {
+    margin-bottom: 4em;
+}
+
 
 .equipment-detail {
 
-    // .book-block {
-    //     text-align: center;
-    // }
+    .title {
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
 
     .btn-book {
-        font-size: 14pt;
+        font-size: 12pt;
         padding: 1em;
 
         color: #fff;
-        background-color: $blue;
+        background-color: darken($blue, 20%);
     }
 
     .specs {
-        margin-top: 2em;
+        font-size: 12pt;
 
         .title {
             width: 20%;
@@ -306,6 +311,13 @@
 
         :first-child > td {
             border-top: none;
+        }
+    }
+
+    .guidelines {
+        .guide-list {
+            // list-style: none;
+            font-size: 12pt;
         }
     }
 }
