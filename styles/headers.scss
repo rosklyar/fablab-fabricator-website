@@ -36,6 +36,36 @@
 
     .inner-header {
         padding: 0;
+
+        .img-block {
+            padding: 3em;
+        }
+
+        .price-round {
+            background-color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            // background-color: $blue;
+
+            $size: 10em;
+            width: $size;
+            height: $size;
+
+            border-radius: $size;
+
+            // padding: 2vh;
+
+            .price {
+                margin: 0;
+                // color: white;
+            }
+        }
     }
 
     .logo {

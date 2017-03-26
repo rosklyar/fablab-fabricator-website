@@ -21,7 +21,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
     <div class="header">
         <nav class="navbar navbar-default">
@@ -40,12 +40,12 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">About</a></li>
-                        <li><a href="#">Equipment</a></li>
+                        <li class="active"><a href="#about">About</a></li>
+                        <li><a href="#equipment">Equipment</a></li>
                         <!-- <li><a href="#">Projects</a></li> -->
-                        <li><a href="#">Memberships</a></li>
-                        <li><a href="#">Workshops</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#memberships">Memberships</a></li>
+                        <li><a href="#workshops">Workshops</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
 
                         <li class="login"><a href="#">Log In</a></li>
                     </ul>
@@ -115,7 +115,7 @@
     </div>
 
     <!-- Equipment Block -->
-    <div class="block equipment-block">
+    <div id="equipment" class="block equipment-block">
         <div class="container">
 
             <h1 class="block-title">OUR Equipment</h1>
@@ -176,8 +176,16 @@
 
     </div>
 
+    <!-- Workshop Block -->
+    <div id="workshops" class="block workshop-block">
+        <div class="container">
+            <h1 class="block-title">Workshops</h1>
+
+        </div>
+    </div>
+
     <!-- Membeships Data -->
-    <div class="block">
+    <div id="memberships" class="block">
         <h1 class="block-title">Memberships</h1>
 
         <div class="container members">
@@ -247,7 +255,7 @@
     </div>
 
     <!-- Contacts Block -->
-    <div class="block container contacts">
+    <div id="contacts" class="block container contacts">
 
         <div class="col-md-5">
             <h1 class="block-title">Where to find us?</h1>
