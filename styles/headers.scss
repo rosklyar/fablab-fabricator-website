@@ -2,19 +2,23 @@
 .header {
     width: 100%;
 
-    @include gradient-bg(
-        (45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
-        (135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
-        (225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
-        (315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%)
-    );
+    // @include gradient-bg(
+    //     (45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
+    //     (135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
+    //     (225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
+    //     (315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%)
+    // );
+
+    background-color: #9FC415; //#F195BE; ; //darken($green, 20%);  //hsla(173, 93%, 58%, 1);
 
     .inner-header {
-        padding: 10em 0;
+        padding: 5em 0;
+        padding-top: 1em 0;
     }
 
     .header-text {
         color: #fff;
+        padding-top: 3em;
         padding-left: 5em;
 
         h1, h4 {
