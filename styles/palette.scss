@@ -1,6 +1,26 @@
 
-$red: #E3000E;
-$blue: #38BEEF;
+$red: #FF5722;
+$blue: #27c4f3; //#38BEEF;
 $yellow: #FFED00;
 $green: #9FC415;
 $purple: #AF90C2;
+
+.red-col {
+    color: $red;
+}
+
+.blue-col {
+    color: $blue;
+}
+
+.yellow-col {
+    color: $yellow;
+}
+
+.green-col {
+    color: $green;
+}
+
+.purple-col {
+    color: $purple;
+}
