@@ -5,11 +5,13 @@ $head_color: #60BBEA;
 $button_border: #BDBDBD;
 $button_radius: 1em;
 
+$main-head: #66BB6A;
+
 $main-head-bg:
-    (45deg, hsla(196, 95%, 66%, 1) 0%, hsla(196, 95%, 66%, 0) 70%),
-    (135deg, hsla(173, 93%, 58%, 1) 10%, hsla(173, 93%, 58%, 0) 80%),
-    (225deg, hsla(193, 98%, 63%, 1) 10%, hsla(193, 98%, 63%, 0) 80%),
-    (315deg, hsla(62, 94%, 67%, 1) 100%, hsla(62, 94%, 67%, 0) 70%)
+    (45deg, #4CAF50 0%, hsla(196, 95%, 66%, 0) 70%),
+    (135deg, #81C784 10%, hsla(173, 93%, 58%, 0) 80%),
+    (225deg, #9CCC65 10%, hsla(193, 98%, 63%, 0) 80%),
+    (315deg, #9CCC65 100%, hsla(62, 94%, 67%, 0) 70%)
 ;
 
 $footer-bg: #EEEEEE;
