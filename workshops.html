@@ -23,7 +23,7 @@
 
 <body>
 
-    <div class="header-small">
+    <div class="header-small purple-bg">
         <nav class="navbar navbar-default">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,10 +41,10 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="./">About</a></li>
-                        <li class="active"><a href="./#equipment">Equipment</a></li>
+                        <li><a href="./#equipment">Equipment</a></li>
                         <!-- <li><a href="#">Projects</a></li> -->
                         <li><a href="./#memberships">Memberships</a></li>
-                        <li><a href="./#workshops">Workshops</a></li>
+                        <li class="active"><a href="./#workshops">Workshops</a></li>
                         <li><a href="./#contacts">Contacts</a></li>
 
                         <li class="login"><a href="#">Log In</a></li>
@@ -54,108 +54,62 @@
             </div> <!-- /.container-fluid -->
         </nav>
 
-        <div class="container inner-header purple-">
+        <div class="container inner-header">
             <div class="col-md-3">
-                <img class="logo img-responsive" src="assets/icons/equipment_white/3d_print.png" />
+                <img class="logo img-responsive" src="assets/icons/education/purple-white.png" />
             </div>
 
             <div class="col-md-8 header-text">
-                <h1>3D Printing</h1>
+                <h1>Воркшопы</h1>
             </div>
         </div>
 
     </div>
 
     <!-- Equipment Block -->
-    <div class="block equipment-list">
+    <div class="block workshop-page purple-col">
         <div class="container">
 
-            <div class="row equipment">
-                <div class="col-xs-3 thumb-col">
-                    <div class="price-round">
-                        <h3 class="price">20 ₴/min</h3>
-                    </div>
-                </div>
-
-                <div class="col-xs-9">
-                    <a href="./item.html"><h2 class="title">FDM Printer</h2>
-                    <h4 class="type">223 x 223 x 205 mm</h4></a>
+            <div class="side-menu col-md-3">
+                <div class="nav-side">
+                    <ul>
+                        <li><a href="#">Використання машин</a></li>
+                        <li><a href="#">Використання софта</a></li>
+                        <li class="active"><a href="#">Зустрічі Мейкерів</a></li>
+                        <li><a href="#">Інше</a></li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="row equipment">
-                <div class="col-xs-3 thumb-col">
-                    <div class="price-round">
-                        <h3 class="price">20 ₴/min</h3>
+
+            <div class="wshops col-md-9">
+
+                <div class="row">
+
+                    <div class="col-md-4 wshop">
+                        <img class="thumb img-responsive" src="assets/icons/education/3d_print_round.png" />
+                        <h2 class="title purple-col">3d printing</h2>
+                        <h5 class="subtitle">БЕЗКОШТОВНО</h5>
+                    </div>
+
+                    <div class="col-md-4 wshop">
+                        <img class="thumb img-responsive" src="assets/icons/education/3d_print_round.png" />
+                        <h2 class="title purple-col">3d printing</h2>
+                        <h5 class="subtitle">БЕЗКОШТОВНО</h5>
+                    </div>
+
+                    <div class="col-md-4 wshop">
+                        <img class="thumb img-responsive" src="assets/icons/education/3d_print_round.png" />
+                        <h2 class="title purple-col">3d printing</h2>
+                        <h5 class="subtitle">БЕЗКОШТОВНО</h5>
                     </div>
                 </div>
-
-                <div class="col-xs-9">
-                    <a href="./item.html"><h2 class="title">FDM Printer</h2>
-                    <h4 class="type">250 x 200 x 200 mm</h4></a>
-                </div>
             </div>
-
-            <div class="row equipment">
-                <div class="col-xs-3 thumb-col">
-                    <div class="price-round">
-                        <h3 class="price">20 ₴/min</h3>
-                    </div>
-                </div>
-
-                <div class="col-xs-9">
-                    <a href="./item.html"><h2 class="title">FDM Printer</h2>
-                        <h4 class="type">300 x 200 x 440 mm</h4></a>
-                </div>
-            </div>
-
-            <div class="row equipment">
-                <div class="col-xs-3 thumb-col">
-                    <div class="price-round">
-                        <h3 class="price">40 ₴/min</h3>
-                    </div>
-                </div>
-
-                <div class="col-xs-9">
-                    <a href="./item.html"><h2 class="title">Delta FDM Printer</h2>
-                    <h4 class="type">200 x 200 x 400 mm</h4></a>
-                </div>
-            </div>
-
-            <div class="row equipment">
-                <div class="col-xs-3 thumb-col">
-                    <div class="price-round">
-                        <h3 class="price">100 ₴/min</h3>
-                    </div>
-                </div>
-
-                <div class="col-xs-9">
-                    <a href="./item.html"><h2 class="title">DLP Printer</h2>
-                    <h4 class="type">100 x 100 x 150 mm</h4></a>
-                </div>
-            </div>
-
-            <div class="row equipment">
-                <div class="col-xs-3 thumb-col">
-                    <div class="price-round price-manager">
-                        <h3 class="price">100 ₴/min</h3>
-                    </div>
-                </div>
-
-                <div class="col-xs-9">
-                    <a href="./item.html"><h2 class="title">SLS Printer</h2>
-                    <h4 class="type">100 x 100 x 150 mm</h4></a>
-                </div>
-            </div>
-
 
         </div>
 
         <div class="price-note container">
-            <h6>* Price may vary based on membership</h6>
-            <h6>** Some equipment requires manager on site</h6>
         </div>
-
 
     </div>
 

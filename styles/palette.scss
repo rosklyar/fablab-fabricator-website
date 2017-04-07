@@ -18,9 +18,13 @@ $purple: #AF90C2;
 }
 
 .green-col {
-    color: $green;
+    color: $green !important;
 }
 
 .purple-col {
     color: $purple;
+}
+
+.purple-bg {
+    background-color: $purple !important;
 }

@@ -10,6 +10,10 @@
         margin-top: 0em;
     }
 
+    .subtitle {
+        margin-top: 1em;
+        color: #BDBDBD;
+    }
 
 
 }
@@ -358,5 +362,43 @@
     .img-responsive {
         padding: 3em;
         padding-bottom: 1em;
+    }
+}
+
+.workshop-page {
+
+    .nav-side {
+        ul {
+            list-style: none;
+
+            li {
+                font-size: 14pt;
+                padding: 0.5em 0em 0.5em 0.5em;
+
+                a {
+                    color: inherit;
+                }
+                a:hover  {
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+
+    .wshops {
+        padding-left: 7em;
+    }
+
+    .wshop {
+        text-align: center;
+    }
+
+    .thumb {
+        // border: 2px solid #BDBDBD;
+        // border-radius: 1em;
+        $padding-side: 2em;
+        padding-left: $padding-side;
+        padding-right: $padding-side;
     }
 }
