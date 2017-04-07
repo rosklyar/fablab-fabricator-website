@@ -68,9 +68,16 @@
 }
 
 .members {
-    $side-padding: 7vw;
-    padding-left: $side-padding;
-    padding-right: $side-padding;
+    // $side-padding: 7vw;
+    // padding-left: $side-padding;
+    // padding-right: $side-padding;
+
+    text-align: center;
+
+    .img-icon {
+        padding: 3em;
+        padding-bottom: 1em;
+    }
 }
 
 .table-members {
