@@ -459,6 +459,18 @@
         }
     }
 
+    .side-detail {
+        .title {
+            // color: #757575 !important;
+            padding-bottom: 1em;
+        }
+
+        .detail {
+            color: #757575 !important;
+            line-height: inherit;
+        }
+    }
+
     .wshops {
         padding-left: 7em;
     }
