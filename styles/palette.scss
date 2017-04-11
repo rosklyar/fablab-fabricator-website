@@ -26,6 +26,12 @@ $pink: #F195BD;
     color: $purple;
 }
 
-.purple-bg {
-    background-color: $purple !important;
-}
+.red-bg { background-color: $red !important; }
+
+.blue-bg { background-color: $blue !important; }
+
+.green-bg { background-color: $green !important; }
+
+.yellow-bg { background-color: darken($yellow, 3%) !important; }
+
+.purple-bg { background-color: $purple !important; }

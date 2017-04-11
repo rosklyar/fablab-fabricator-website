@@ -26,6 +26,16 @@ $blue_shade_1: darken($blue, 20%);
 $blue_shade_2: darken($blue, 30%);
 $blue_shade_3: darken($blue, 40%);
 
+$red_light: lighten($red, 20%);
+
 .blue_shade_1 { background-color: $blue_shade_1 !important; }
 .blue_shade_2 { background-color: $blue_shade_2 !important; }
 .blue_shade_3 { background-color: $blue_shade_3 !important; }
+
+.red_light { background-color: $red_light !important }
+
+.yellow_shade_1 { background-color: darken($yellow, 7%) !important; }
+.yellow_shade_2 { background-color: darken($yellow, 10%) !important; }
+.yellow_shade_3 { background-color: darken($yellow, 15%) !important; }
+
+// .green_shade_1 { background-color: darken($green, 10%) !important; }
