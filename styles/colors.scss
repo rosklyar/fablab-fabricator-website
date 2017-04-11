@@ -19,5 +19,13 @@ $footer-heading: #757575;
 $footer-link: #9E9E9E;
 
 $equipment-title: $blue;
-$equipment-type: #BDBDBD;
+$equipment-type: #757575; //#BDBDBD;
 $equipment-border: #EEEEEE;
+
+$blue_shade_1: darken($blue, 20%);
+$blue_shade_2: darken($blue, 30%);
+$blue_shade_3: darken($blue, 40%);
+
+.blue_shade_1 { background-color: $blue_shade_1 !important; }
+.blue_shade_2 { background-color: $blue_shade_2 !important; }
+.blue_shade_3 { background-color: $blue_shade_3 !important; }
