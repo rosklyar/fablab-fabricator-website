@@ -474,7 +474,7 @@
             color: white;
         }
     }
-    .btn-book:hover {
+    .btn-book:hover, .btn-book:active {
         text-decoration: none;
         h2 {
             background-color: lighten($purple, 10%);
