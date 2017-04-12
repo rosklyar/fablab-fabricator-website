@@ -28,7 +28,25 @@
         text-align: justify;
     }
 
+    .block-text {
+        color: rgba(66, 66, 66, 0.75); //#424242;
 
+        margin-top: 1em;
+
+        font-family: sans-serif;
+        font-weight: 100;
+        // padding: 0 4em 0 4em;
+        line-height: inherit;
+        text-align: justify;
+    }
+
+
+}
+
+.about-block {
+    .row {
+        margin-bottom: 2em;
+    }
 }
 
 .note {
