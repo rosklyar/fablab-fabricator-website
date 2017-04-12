@@ -28,7 +28,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar-nav" >
+<body data-spy="scroll" data-target="#navbar-collapse" >
 <!-- <body> -->
 
     <div class="header">
@@ -48,13 +48,13 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse">
 
                     <ul class="nav navbar-nav navbar-right" id="navbar-main">
-                        <li class="active"><a href="./#about">Про Нас</a></li>
+                        <li class="active"><a href="#about">Про Нас</a></li>
                         <!-- <li><a href="./#about">Про Нас</a></li> -->
-                        <li><a href="./#equipment">Обладнання</a></li>
+                        <li><a href="#equipment">Обладнання</a></li>
                         <!-- <li><a href="#">Projects</a></li> -->
-                        <li><a href="./#memberships">Абонементи</a></li>
-                        <li><a href="./#workshops">Воркшопи</a></li>
-                        <li><a href="./#contacts">Контакти</a></li>
+                        <li><a href="#memberships">Абонементи</a></li>
+                        <li><a href="#workshops">Воркшопи</a></li>
+                        <li><a href="#contacts">Контакти</a></li>
 
                         <!-- <li class="login"><a href="#">Вхід</a></li> -->
                     </ul>
@@ -671,12 +671,16 @@
 
 
 
-    <!-- <script>
+    <script>
         window.onload = function () {
-            console.log("tst");
-            $('body').scrollspy({ target: '#navbar-collapse' })
+            // console.log("tst");
+            // $('body').scrollspy({ target: '#navbar-collapse' })
+
+            $('[data-spy="scroll"]').each(function () {
+              var $spy = $(this).scrollspy('refresh')
+            })
         }
-    </script> -->
+    </script>
 
 </body>
 
