@@ -31,7 +31,7 @@
 <body data-spy="scroll" data-target="#navbar-collapse" >
 <!-- <body> -->
 
-    <div class="header">
+    <div class="header header-1">
         <!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
         <nav class="navbar navbar-default">
             <div class="container">
@@ -146,7 +146,7 @@
 
     <!-- Who for Block -->
     <div class="block">
-        <h1 class="block-title">Для кого</h1>
+        <h1 class="block-title header-2">Для кого</h1>
 
         <div class="container">
             <div class="row">
@@ -188,10 +188,12 @@
 
     <!-- Equipment Block -->
     <div id="equipment" class="block equipment-block">
-        <div class="container">
-
+        <div class="header-3">
             <h1 class="block-title">Обладнання</h1>
-            <h4 class="subtitle">Prices In "Pay As You Go"</h4>
+            <!-- <h4 class="subtitle">Prices In "Pay As You Go"</h4> -->
+        </div>
+
+        <div class="container">
 
             <div class="row">
                 <div class="col-sm-4 service-icon">
@@ -309,8 +311,11 @@
 
     <!-- Workshop Block -->
     <div id="workshops" class="block workshop-block">
-        <div class="container">
+        <div class="header-4">
             <h1 class="block-title">Воркшопи</h1>
+        </div>
+
+        <div class="container">
 
             <div class="row">
 
@@ -362,8 +367,11 @@
     <!-- Membeships Data -->
     <div id="memberships" class="block">
 
-        <div class="container members">
+        <div class="header-5">
             <h1 class="block-title">Абонементи</h1>
+        </div>
+
+        <div class="container members">
             <div class="row">
 
                 <div class="col-sm-3 memb">
@@ -467,8 +475,11 @@
 
     <!-- Comments Block -->
     <div id="workshops" class="block comments-block">
-        <div class="container">
+        <div class="header-6">
             <h1 class="block-title">Відгуки</h1>
+        </div>
+
+        <div class="container">
 
             <div class="row" style="padding-top: 5em;">
 
@@ -503,7 +514,7 @@
                 </div>
             </div>
 
-            <div class="row" style="padding-top: 5em;">
+            <!-- <div class="row" style="padding-top: 5em;">
 
                 <div class="col-md-6">
 
@@ -534,7 +545,7 @@
                         </blockquote>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -678,7 +689,12 @@
             // $('body').scrollspy({ target: '#navbar-collapse' })
 
             $('[data-spy="scroll"]').each(function () {
-              var $spy = $(this).scrollspy('refresh')
+                var $spy = $(this).scrollspy('refresh')
+            })
+
+
+            $('#about').on('activate.bs.scrollspy', function () {
+                console.log("shop");
             })
         }
     </script>
