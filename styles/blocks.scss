@@ -1,6 +1,7 @@
 
 .block {
-    padding-top: 8em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 
     // margin-left: 10em;
     // margin-right: 10em;
@@ -40,7 +41,10 @@
         text-align: justify;
     }
 
+}
 
+.block-grey {
+    background-color: #F5F5F5;
 }
 
 .about-block {
@@ -74,17 +78,17 @@
 .service-icon {
     padding-bottom: 0;
 
-    $side-padding: 2vw;
-    padding-left: $side-padding;
-    padding-right: $side-padding;
+    // $side-padding: 2vw;
+    // padding-left: $side-padding;
+    // padding-right: $side-padding;
 
-    @media (max-width: "768px") {
-        // padding: 5em 8em;
-        // padding-bottom: 0em;
-        $side-padding: 2em;
-        padding-left: $side-padding;
-        padding-right: $side-padding;
-    }
+    // @media (max-width: "768px") {
+    //     // padding: 5em 8em;
+    //     // padding-bottom: 0em;
+    //     $side-padding: 2em;
+    //     padding-left: $side-padding;
+    //     padding-right: $side-padding;
+    // }
 
     text-align: center;
 
@@ -110,7 +114,9 @@
 
     .img-wrap {
         // padding: 6.5em;
-        padding: 6.5vw;
+        // padding: 6.5vw;
+
+        padding: 3em;
         padding-bottom: 0;
 
         @media (max-width: "768px") {

@@ -2,12 +2,12 @@
 .header {
     width: 100%;
 
-    // @include gradient-bg(
-    //     (45deg, #9CCC65 0%, hsla(196, 95%, 66%, 0) 70%),
-    //     (135deg, #81C784 10%, hsla(173, 93%, 58%, 0) 80%),
-    //     (225deg, #9CCC65 10%, hsla(193, 98%, 63%, 0) 80%),
-    //     (315deg, #4CAF50 100%, hsla(62, 94%, 67%, 0) 70%)
-    // );
+    @include gradient-bg(
+        (45deg, #9CCC65 0%, hsla(196, 95%, 66%, 0) 70%),
+        (135deg, #81C784 10%, hsla(173, 93%, 58%, 0) 80%),
+        (225deg, #9CCC65 10%, hsla(193, 98%, 63%, 0) 80%),
+        (315deg, #4CAF50 100%, hsla(62, 94%, 67%, 0) 70%)
+    );
 
     // background-color: $main-head; //#9FC415; //#F195BE; ; //darken($green, 20%);  //hsla(173, 93%, 58%, 1);
 
@@ -99,47 +99,47 @@
     }
 }
 
-.header-1 {
-    background-image: url("./assets/backgrounds/bg1.png");
-    background-size: cover;
-}
-
-.header-2 {
-    background-image: url("./assets/backgrounds/bg2.png");
-    background-size: cover;
-
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-}
-
-.header-3 {
-    background-image: url("./assets/backgrounds/bg3.png");
-    background-size: cover;
-
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-.header-4 {
-    background-image: url("./assets/backgrounds/bg4.png");
-    background-size: cover;
-
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-.header-5 {
-    background-image: url("./assets/backgrounds/bg5.png");
-    background-size: cover;
-
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-.header-6 {
-    background-image: url("./assets/backgrounds/bg6.png");
-    background-size: cover;
-
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
+// .header-1 {
+//     background-image: url("./assets/backgrounds/bg1.png");
+//     background-size: cover;
+// }
+//
+// .header-2 {
+//     background-image: url("./assets/backgrounds/bg2.png");
+//     background-size: cover;
+//
+//     padding-top: 1em;
+//     padding-bottom: 1em;
+// }
+//
+// .header-3 {
+//     background-image: url("./assets/backgrounds/bg3.png");
+//     background-size: cover;
+//
+//     padding-top: 3em;
+//     padding-bottom: 3em;
+// }
+//
+// .header-4 {
+//     background-image: url("./assets/backgrounds/bg4.png");
+//     background-size: cover;
+//
+//     padding-top: 3em;
+//     padding-bottom: 3em;
+// }
+//
+// .header-5 {
+//     background-image: url("./assets/backgrounds/bg5.png");
+//     background-size: cover;
+//
+//     padding-top: 3em;
+//     padding-bottom: 3em;
+// }
+//
+// .header-6 {
+//     background-image: url("./assets/backgrounds/bg6.png");
+//     background-size: cover;
+//
+//     padding-top: 3em;
+//     padding-bottom: 3em;
+// }
