@@ -48,3 +48,30 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
     }
 }
+
+
+
+.carousel-indicators {
+    position: static;
+
+    padding-top: 2em;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 0;
+
+    li {
+        border-color: #E0E0E0;
+    }
+    .active {
+        width: 10px;
+        height: 10px;
+
+        background-color: #E0E0E0;
+    }
+}
+
+.carousel-control {
+    background-image: none !important;
+}
