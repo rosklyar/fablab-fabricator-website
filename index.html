@@ -25,6 +25,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <style>
+
+     /* Ensure elements load hidden before ScrollReveal runs */
+     .block { visibility: hidden; }
+
+   </style>
 
 </head>
 
@@ -32,8 +40,8 @@
 
     <!-- Main Top Header -->
     <div class="header">
-        <!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- <nav class="navbar navbar-default"> -->
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -725,7 +733,11 @@
             $('#about').on('activate.bs.scrollspy', function () {
                 console.log("shop");
             })
-        }
+
+            // JavaScript
+            window.sr = ScrollReveal();
+                sr.reveal('.block');
+            }
     </script>
 
 </body>
