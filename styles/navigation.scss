@@ -1,11 +1,21 @@
 
 .navbar-default {
-    background: none !important;
+    // background: none !important;
 
-    // background-color: rgba(#E0E0E0, 0.5);
+    // @include gradient-bg(
+    //     (45deg, #9CCC65 0%, hsla(196, 95%, 66%, 0) 70%),
+    //     (135deg, #81C784 10%, hsla(173, 93%, 58%, 0) 80%),
+    //     (225deg, #9CCC65 10%, hsla(193, 98%, 63%, 0) 80%),
+    //     (315deg, #4CAF50 100%, hsla(62, 94%, 67%, 0) 70%)
+    // );
+
+    // background-color: rgba($main-head, 0.5);
+    background-color: #fafafa;
     // filter: blur(5px);
 
-    border: none !important;
+    // border: none !important;
+
+    border-bottom: 2px solid #EEEEEE;
 
     // color: white !important;
 }
@@ -14,10 +24,12 @@
 
     font-size: 12pt;
 
-    // color: #424242 !important;
-    color: white !important;
-    padding: 0.5em 1em !important;
-    padding-top: 2em !important;
+    color: #9E9E9E !important;
+    // color: white !important;
+    // padding: 0.5em 1em !important;
+    // padding-top: 2em !important;
+
+    line-height: 3em !important;
 
 
     // margin-bottom: 0.2em;
@@ -26,7 +38,7 @@
 .navbar-nav .active > a {
     background: none !important;
     // border-bottom: 3px solid #424242;
-    border-bottom: 3px solid white;
+    // border-bottom: 3px solid white;
 }
 
 .login {
