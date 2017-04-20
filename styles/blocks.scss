@@ -78,9 +78,9 @@
 .service-icon {
     padding-bottom: 0;
 
-    // $side-padding: 2vw;
-    // padding-left: $side-padding;
-    // padding-right: $side-padding;
+    $side-padding: 2vw;
+    padding-left: $side-padding;
+    padding-right: $side-padding;
 
     // @media (max-width: "768px") {
     //     // padding: 5em 8em;
