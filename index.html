@@ -39,13 +39,13 @@
 <body data-spy="scroll" data-target="#navbar-collapse" >
 
     <div class="menu-btn">
-        <button class="btn btn-default"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+        <button id="menu-btn" class="btn btn-default"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
     </div>
 
     <!-- Main Top Header -->
     <div class="header">
         <!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
-        <nav class="navbar navbar-default">
+        <nav id="main-nav-ctr" class="navbar navbar-default">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -729,6 +729,11 @@
             // console.log("tst");
             // $('body').scrollspy({ target: '#navbar-collapse' })
 
+            var menu_height = $('#main-nav-ctr').outerHeight();
+            console.log(menu_height);
+
+            var hide_scroll = false;
+
             $('[data-spy="scroll"]').each(function () {
                 var $spy = $(this).scrollspy('refresh')
             })
@@ -738,10 +743,59 @@
                 console.log("shop");
             })
 
+            $('#menu-btn').click(function () {
+                $(this).fadeOut(50);
+
+                var nav = $('#main-nav-ctr');
+                var active = "navbar-fixed-top";
+
+                if (nav.hasClass(active)) {
+                    nav.fadeToggle(function () {
+                        nav.toggleClass(active);
+                        nav.show();
+                        $("body").scrollTop($("body").scrollTop()+menu_height+20);
+                    });
+                } else {
+                    nav.hide();
+                    $("body").scrollTop($("body").scrollTop()-menu_height-20);
+
+                    nav.toggleClass(active);
+                    nav.fadeToggle(function () {
+
+                        hide_scroll = true;
+                    });
+
+
+                }
+
+            });
+
+            $(window).scroll(function () {
+
+                console.log("test");
+
+                var nav = $('#main-nav-ctr');
+                var active = "navbar-fixed-top";
+
+                if (hide_scroll) {
+                    hide_scroll = false;
+                    nav.fadeToggle(function () {
+                        nav.toggleClass(active);
+                        nav.show();
+                        $("body").scrollTop($("body").scrollTop()+menu_height+20);
+
+                        $("#menu-btn").fadeIn(50);
+
+                    });
+                }
+            });
+
             // JavaScript
             window.sr = ScrollReveal();
                 sr.reveal('.block');
             }
+
+
     </script>
 
 </body>
