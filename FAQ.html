@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fablab Fabricator</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <style>
+
+     /* Ensure elements load hidden before ScrollReveal runs */
+     .block { visibility: hidden; }
+
+   </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-collapse" >
+
+    <div class="menu-btn">
+        <button id="menu-btn" class="btn btn-default"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+    </div>
+
+    <!-- Main Top Header -->
+    <div class="header-small">
+        <!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
+        <nav id="main-nav-ctr" class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right" id="navbar-main">
+                        <li class="active"><a href="#about">Про Нас</a></li>
+                        <!-- <li><a href="./#about">Про Нас</a></li> -->
+                        <li><a href="#equipment">Обладнання</a></li>
+                        <!-- <li><a href="#">Projects</a></li> -->
+                        <li><a href="#workshops">Воркшопи</a></li>
+                        <li><a href="#memberships">Абонементи</a></li>
+                        <li><a href="#contacts">Контакти</a></li>
+
+                        <!-- <li class="login"><a href="#">Login</a></li> -->
+                    </ul>
+
+                </div> <!-- /.navbar-collapse -->
+            </div> <!-- /.container-fluid -->
+        </nav>
+
+        <div class="container inner-header">
+            <div class="col-md-8 header-text" style="margin-bottom: 2em">
+                <h1>FAQ</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="block faq-list">
+
+        <div class="container">
+            <h2>Що Таке Фаблаб?</h2>
+            <h4 class="block-text">
+                FabLab Fabriсator -  частина глобальної мережі відкритих локальних інноваційних лабораторій цифрового виготовлення. Майстерні FabLab кожен бажаючий може дізнатися не тільки про науку і технології, але й зануритись в світ Open Source проектів та індустріального дизайну, а також разом із найбільшою в світі спільнотою винахідників працювати разом для поліпшення якості життя людей.
+                Концепція Fablab була розроблена авторитетним вченим та професором Нілом Герштенфельдом в Массачуссетському технологічному інституті (MIT). Його ідея: забезпечити платформу, знання, сучасні матеріали і технології, щоб зробити речі дешево і швидко в будь-якій точці світу, і зробити їх доступним на місцевому рівні для підприємців, студентів, митців, малого бізнесу і справді для кожного, хто хоче створити щось нове.
+            </h4>
+
+            <h2>Які формати файлів і матеріали мені потрібні для лазерного різака?</h2>
+            <h4 class="block-text">Файли, які підтримують лазерним різаком: є .dxf, .ai, .eps, corel (векторні файли). Якщо Вам треба гравіювання зображення на конкретному матеріалі, можна використовувати растрові зображення .jpg або .bmp файл.
+            Лазерний різак може вирізати або гравірувати картон, папір, дерево, МДФ, фанера, акрил до 10 мм; текстиль, шкіра, піна. Ви можете гравіювати на металі (за винятком міді та алюмінію), дзеркала та скла.</h4>
+
+            <h2>Що Таке Відкритий Доступ?</h2>
+            <h4 class="block-text">
+                Можливість для кожного використовувати лабораторію для власних проектів.
+
+                Ідея полягає в тому, що нові користувачі можуть вчитися самостійно і отримувати допомогу від більш досвідчених членів лабораторії. Маючи доступ до машин і програмного забезпечення, що є в лабораторії, навчання значно прискорюється.
+            </h4>
+
+            <h2>Як працює FabLab Fabricator</h2>
+            <h4 class="block-text">Є 3 режими доступу в нашій лабораторії FabLab: похвилинний доступ до обладнання, резиденство або абонемент, або відкритий доступ - можливість познайомитись з потужностями лабораторії.</h4>
+
+            <h2>Чи можна відвідати FabLab?</h2>
+            <h4 class="block-text">Так! Будь ласка, ознайомтеся з нашим календарем, перш ніж відвідати лабораторію. Варто записатись на сайті чи подзвонити менеджерам. Кожен має пройти реєстрацію перед відвідуванням лабораторії.</h4>
+
+            <h2>Можливо використовувати мої матеріали для роботи з обладнанням?</h2>
+            <h4 class="block-text">Так, але перед використанням треба обов’язково порадитись зі співробітниками лабораторії щодо доцільності матеріалів. (наприклад, хлоровані пластмаси не використовуються під час лазерної порізки)</h4>
+
+            <h2>Ви надаєте матеріали?</h2>
+            <h4 class="block-text">Ні. Але у лабораторії Ви завжди можете придбати матеріали від наших партнерів по собівартості. <br />
+                3D-друк:
+                FDM  (PLA, ABS, нейлон);
+                SLA, DLP - фотополімер
+                SLS
+
+                <br />
+
+                Лазерний різак:
+                Фанера  (товщина: 4 мм, 6 мм, 8мм, 10мм)
+                Прозорий, білий акрил (товщина: 3 мм, 4 мм, 6 мм, 8мм, 10мм)
+
+                <br />
+                Фрезерні верстати з ЧПУ
+                МДФ, декілька підвидів дерева, алюміній
+            </h4>
+
+            <h2>Яке програмне забезпечення і формати файлів я можу використовувати для 3D моделювання?</h2>
+            <h4 class="block-text">Ви можете використовувати будь-який вид програмного забезпечення CAD (AutoCAD, SolidWorks, SketchUp, 3DStudioMax, Cinema4D та інші). Для друку або фрезерування кращий формат файлу є .stl (стереолітографії).</h4>
+
+            <h2>Яке програмне забезпечення і формати файлів я можу використовувати для 3D моделювання?</h2>
+            <h4 class="block-text">Ви можете використовувати будь-який вид програмного забезпечення CAD (AutoCAD, SolidWorks, SketchUp, 3DStudioMax, Cinema4D та інші). Для друку або фрезерування кращий формат файлу є .stl (стереолітографії).</h4>
+
+            <h2>Що таке матеріал для 3D-друку і точність принтера?</h2>
+            <h4 class="block-text"> В лабораторії представлені 4 технології 3D друку.
+            FDM - пошарове накладання пластику. Точність: 50 мкм = 0,005 мм
+            SLA, DLP- полімеризація лазерним променем. Точність : 25 мкм - 100 мкм (0.0025 мм - 0,01 мм)
+            SLS - лазерне спікання. Точність: 100 мкм = 0, 01 мм</h4>
+            
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+
+            <div class="row bottom-nav-ctr">
+                <div class="col-md-3">
+                    <h3 class="nav-title">Інформація</h3>
+                    <ul class="bottom-nav">
+                        <li>
+                            <a href="./rules.html">Правила та рекомендації</a>
+                        </li>
+
+                        <!-- <li>
+                            <a href="#">FAQ</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Wiki</a>
+                        </li> -->
+
+                        <li>
+                            <a href="#">Команда</a>
+                        </li>
+
+                        <li>
+                            <a href="./press.html">Преса Про Нас</a>
+                        </li>
+
+                        <!-- <li>
+                            <a href="#">Прес Кіт</a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3 class="nav-title">Help</h3>
+                    <ul class="bottom-nav">
+                        <li>
+                            <a href="#">Як допомогти?</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Вакансії</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row social">
+                        <a href="https://www.facebook.com/Fabricator.me/"><img class="img-responsive fb" src="assets/icons/social/facebook.svg" /></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row copyright">
+                <span>&copy; Fabricator 2017</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scroll Spy -->
+    <script>
+        window.onload = function () {
+            // console.log("tst");
+            // $('body').scrollspy({ target: '#navbar-collapse' })
+
+            var menu_height = $('#main-nav-ctr').outerHeight();
+            console.log(menu_height);
+
+            var hide_scroll = false;
+
+            $('[data-spy="scroll"]').each(function () {
+                var $spy = $(this).scrollspy('refresh')
+            })
+
+
+            $('#about').on('activate.bs.scrollspy', function () {
+                console.log("shop");
+            })
+
+            $('#menu-btn').click(function () {
+                $(this).fadeOut(50);
+
+                var nav = $('#main-nav-ctr');
+                var active = "navbar-fixed-top";
+
+                if (nav.hasClass(active)) {
+                    nav.fadeToggle(function () {
+                        nav.toggleClass(active);
+                        nav.show();
+                        $("body").scrollTop($("body").scrollTop()+menu_height+20);
+                    });
+                } else {
+                    nav.hide();
+                    $("body").scrollTop($("body").scrollTop()-menu_height-20);
+
+                    nav.toggleClass(active);
+                    nav.fadeToggle(function () {
+
+                        hide_scroll = true;
+                    });
+
+
+                }
+
+            });
+
+            $(window).scroll(function () {
+
+                console.log("test");
+
+                var nav = $('#main-nav-ctr');
+                var active = "navbar-fixed-top";
+
+                if (hide_scroll) {
+                    hide_scroll = false;
+                    nav.fadeToggle(function () {
+                        nav.toggleClass(active);
+                        nav.show();
+                        $("body").scrollTop($("body").scrollTop()+menu_height+20);
+
+                        $("#menu-btn").fadeIn(50);
+
+                    });
+                }
+            });
+
+            // JavaScript
+            window.sr = ScrollReveal();
+                sr.reveal('.block');
+            }
+
+
+    </script>
+
+</body>
+
+</html>
