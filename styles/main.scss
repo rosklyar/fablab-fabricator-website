@@ -119,3 +119,19 @@ h1, h2, h3, h4, h5, h6 {
 
     padding: 1em;
 }
+
+.intext-link {
+    text-decoration: none;
+
+    transition: .3s;
+}
+.intext-link:hover {
+    text-decoration: none;
+}
+
+.intext-white {
+    color: #F5F5F5;
+}
+.intext-white:hover {
+    color: #E0E0E0;
+}
