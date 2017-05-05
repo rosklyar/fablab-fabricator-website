@@ -600,6 +600,29 @@
     }
 }
 
-.material-block {
-    
+.materials-block {
+
+    .title {
+        margin-bottom: 1em;
+    }
+
+    .material-item {
+        margin-bottom: 5em;
+    }
+
+    .mat-list {
+        list-style: none;
+
+        li {
+            font-family: sans-serif;
+            font-weight: 300;
+            font-size: 14pt;
+            border-bottom: 1px solid #E0E0E0;
+
+            line-height: inherit;
+            padding: 1em 0;
+
+            color: #424242;
+        }
+    }
 }
