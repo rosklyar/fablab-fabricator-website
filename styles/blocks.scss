@@ -637,8 +637,16 @@
 
 .image-mess {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+
+    .column {
+        // width: auto;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-start;
+    }
 
     img {
         border-radius: 0.8em;
