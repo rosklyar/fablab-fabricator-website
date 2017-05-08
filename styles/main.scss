@@ -147,3 +147,15 @@ b {
 
     color: #424242;
 }
+
+.adds-block {
+    padding-top: 5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        padding: 0 2em;
+    }
+}
