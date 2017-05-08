@@ -634,3 +634,14 @@
         }
     }
 }
+
+.image-mess {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    img {
+        border-radius: 0.8em;
+        margin-bottom: 1em;
+    }
+}
