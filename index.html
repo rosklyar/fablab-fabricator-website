@@ -524,34 +524,108 @@
     <div id="memberships" class="block block-grey">
 
         <div class="header-5">
-            <h1 class="block-title">Абонементи</h1>
+            <h1 id="mem-title" class="block-title">Абонементи</h1>
         </div>
 
-        <div class="container members">
+        <script>
+            function m_toggle(id) {
+                $("#mem-title").fadeToggle(200);
+
+                $(id).fadeToggle(200);
+                $("#main-block").fadeToggle(200);
+            }
+        </script>
+
+        <div id="print-basic" class="container detail-block" style="display: none">
+            <div class="row nav-line">
+                <button class="btn" onclick="m_toggle('#print-basic')"><span class="glyphicon glyphicon-chevron-left"></span></button>
+            </div>
+
+            <div class="col-sm-2">
+                <img class="img-responsive" src="./assets/icons/single.png" />
+            </div>
+
+            <div class="col-sm-9 col-sm-offset-1">
+                <h2 class="title">3D Print Basic</h2>
+
+                <div class="text-block">
+                    <p>
+                        The “3D Print Basic” is our ultimate offer for makers who want to use 3D printers. For just 20 $ per month you receive a full flat rate for our desktop printers. To extend the lifespan of the printers we request you to buy tested 3D Printing Material (filament) from our partner shops or to show us at the Information Desk your own material before usage.
+                    </p>
+
+                    <p>
+                        Memberships can not be bought online. If you are interested in one of our memberships, please come and visit us. We will consult and help you to register locally
+                    </p>
+                </div>
+
+                <div class="text-block mem-detail">
+                    <div class="col-xs-1">
+                        <h3 class="price"><span class="glyphicon glyphicon-usd"></span></h3>
+                    </div>
+
+                    <div class="col-xs-11">
+                        <p>20 $ / Month - 3 Month Duration</p>
+                        <p>30 $ / Month - 1 Month Duration</p>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="text-block mem-detail">
+                    <div class="col-xs-1">
+                        <h3 class="price"><span class="glyphicon glyphicon-time"></span></h3>
+                    </div>
+
+                    <div class="col-xs-11">
+                        <p>Available days W, T, F, S from 11:00 to 17:00</p>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="text-block mem-detail">
+                    <h5 class="notice">*Material is excluded and needs to be purchased from our partners.</h5>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <div id="main-block" class="container members">
             <div class="row">
 
                 <div class="col-sm-3 memb">
-                    <img class="img-responsive img-icon" src="./assets/icons/single.png" />
-                    <h3 class="title">3D Print Basic</h3>
-                    <h5 class="subtitle">Незабаром Буде</h5>
+                    <!-- <a href="#" class="empty-link"> -->
+                        <img class="img-responsive img-icon fake-btn" onclick="m_toggle('#print-basic')" src="./assets/icons/single.png" />
+                        <h3 class="title">3D Print Basic</h3>
+                        <h4 class="subtitle">від 20$/місяць</h4>
+                    <!-- </a> -->
                 </div>
 
                 <div class="col-sm-3 memb">
-                    <img class="img-responsive img-icon" src="./assets/icons/gear.png" />
-                    <h3 class="title purple-col">Maker</h3>
-                    <h5 class="subtitle">Незабаром Буде</h5>
+                    <!-- <a href="#" class="empty-link"> -->
+                        <img class="img-responsive img-icon" src="./assets/icons/gear.png" />
+                        <h3 class="title purple-col">Maker</h3>
+                        <h4 class="subtitle">від 100$/місяць</h4>
+                    <!-- </a> -->
                 </div>
 
                 <div class="col-sm-3 memb">
-                    <img class="img-responsive img-icon" src="./assets/icons/dev.png" />
-                    <h3 class="title yellow-col">Developer</h3>
-                    <h5 class="subtitle">Незабаром Буде</h5>
+                    <!-- <a href="#" class="empty-link"> -->
+                        <img class="img-responsive img-icon" src="./assets/icons/dev.png" />
+                        <h3 class="title yellow-col">Developer</h3>
+                        <h4 class="subtitle">від 200$/місяць</h4>
+                    <!-- </a> -->
                 </div>
 
                 <div class="col-sm-3 memb">
-                    <img class="img-responsive img-icon" src="./assets/icons/geek.png" />
-                    <h3 class="title green-col">Geek</h3>
-                    <h5 class="subtitle">Незабаром Буде</h5>
+                    <!-- <a href="#" class="empty-link"> -->
+                        <img class="img-responsive img-icon" src="./assets/icons/geek.png" />
+                        <h3 class="title green-col">Geek</h3>
+                        <h4 class="subtitle">*сконтактуйте напряму</h4>
+                    <!-- </a> -->
                 </div>
             </div>
 
@@ -568,72 +642,8 @@
                     </h4>
                 </div>
 
-                <!-- <h3 class="main-text">
-                    If your a bussiness acceselator and in need of rapid prototyping we can offer. Large team in for rapid prototyping for, from
-                </h3> -->
             </div>
 
-            <!-- <table class="table table-striped table-members">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>
-                            <h1>PSYG</h1>
-                        </th>
-                        <th>
-                            <h1>Plus</h1>
-                        </th>
-                        <th>
-                            <h1>Pro</h1>
-                        </th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td class="left"><h3>3d printing FDM</h3></td>
-                        <td><div class="members-circle"></div></td>
-                        <td><div class="members-circle"></div></td>
-                        <td><div class="members-circle"></div></td>
-                    </tr>
-
-                    <tr>
-                        <td class="left"><h3>CNC Milling</h3></td>
-                        <td></td>
-                        <td><div class="members-circle"></div></td>
-                        <td><div class="members-circle"></div></td>
-                    </tr>
-
-                    <tr>
-                        <td class="left"><h3>3d printing SLA/DLP</h3></td>
-                        <td></td>
-                        <td></td>
-                        <td><div class="members-circle"></div></td>
-                    </tr>
-
-                    <tr>
-                        <td class="left"><h3>Plotter</h3></td>
-                        <td><div class="members-circle"></div></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr>
-                        <td class="left"></td>
-                        <td>
-                            <h1>$99</h1>
-                        </td>
-
-                        <td>
-                            <h1>$199</h1>
-                        </td>
-
-                        <td>
-                            <h1>$299</h1>
-                        </td>
-                    </tr>
-                </tbody>
-            </table> -->
         </div>
 
     </div>

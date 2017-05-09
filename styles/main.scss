@@ -159,3 +159,45 @@ b {
         padding: 0 2em;
     }
 }
+
+
+.empty-link:hover, .empty-link:link {
+    text-decoration: none;
+}
+
+.fake-btn:hover {
+    cursor: pointer;
+}
+
+.detail-block {
+    .title {
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+}
+
+.mem-detail {
+    margin-top: 1.5em;
+    color: #616161;
+
+    .notice {
+        color: #BDBDBD;
+    }
+
+    .price {
+        margin-top: 0.1em;
+        margin: 0;
+        color: #616161;
+    }
+}
+
+.nav-line {
+    margin-bottom: 4em;
+
+    .btn-round {
+        // padding: 0;
+        // width: 10px;
+        // height: 10px;
+        border-radius: 2em;
+    }
+}
