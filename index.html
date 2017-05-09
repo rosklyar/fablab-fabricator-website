@@ -145,11 +145,13 @@
 
             <script>
                 function d_toggle(id) {
-                    $(id).fadeToggle();
-                    $("#list").fadeToggle();
+                    $(id).fadeToggle(200);
+                    $("#list").fadeToggle(200);
                 }
             </script>
 
+
+            <!-- Rapid Prototyping Details -->
             <div id="rapid" class="row" style="display: none;">
                 <button class="btn btn-primary" onclick="d_toggle('#rapid')">назад</button>
                 <div class="col-sm-9 description">
@@ -164,12 +166,18 @@
                 </div>
             </div>
 
+            <!-- OpenSource Details -->
             <div id="opensource" class="row" style="display: none;">
                 <button class="btn btn-primary" onclick="d_toggle('#opensource')">назад</button>
                 <div class="col-sm-9 description">
                     <h3>Робота з існуючими відкритими проектами та створення нових</h3>
                     <p class="text-block">
                         Відкритий доступ до розробок означає готовність ділитися, співпрацювати з іншими новаторами, які також відкрито співпрацюють та доповнюють обсяг відкритих даних (всі бажаючи можуть приймати участь в доопрацювані та покращення будь-якого продукту).
+
+                        Наразі світ технологій дуже швидко розвивається. Інноваційні рішення можуть виникати  у декількох винахідників одночасно. Важливо швидко і якісно створювати ефективні соціально-економічні рішення і бути в курсі всіх  новаторських доробок у світі. Для того щоб технологічний прогрес відбувався на належному рівні, ентузіасти відкрили доступ до своїх розробок, щоб кожен бажаючий міг долучитись до процесу створення інновацій и прискорити його.
+Існує велика кількість ресурсів, де можна знайти потрібну інформацію та файлі.
+Однім з найбильшіх є Thingiverse. Тут зібрані моделі для цифрового виробницта та 3д друку. Багато цікавих інженерних напрацювань та складних відсканованих 3д моделей можна знайти тут чи тут. 
+Приєднатись до проекту та запропонувати свої ідеї можливо, наприклад, тут чи тут.
                     </p>
                     <p class="text-block">
                         Приклади ресурсів, де можна знайти відкриті дані:
@@ -190,6 +198,7 @@
                 </div>
             </div>
 
+            <!-- Research Detail -->
             <div id="research" class="row" style="display: none;">
                 <button class="btn btn-primary" onclick="d_toggle('#research')">назад</button>
                 <div class="col-sm-9 description">
@@ -204,10 +213,11 @@
                 </div>
             </div>
 
+            <!-- Platfrom Detail -->
             <div id="platform" class="row" style="display: none;">
                 <button class="btn btn-primary" onclick="d_toggle('#platform')">назад</button>
                 <div class="col-sm-9 description">
-                    <h3>Платформа для обміну знаннями, досвідом, рішеннями</h3>
+                    <h3>Розвиток платформи для обміну знаннями, досвідом, рішеннями</h3>
                     <p class="text-block">
                         FabLab Fabricator є частиною всесвітньої мережі лабораторій цифрового виробництва, яких на даний момент понад 1500. Географія лабораторій охоплює весь світ, комунікація між лабораторіями дозволяє як отримувати актуальні знання та доступ до останніх розробок в сфері технологій, так і самим бути членом світового товариства винахідників і приймати активну участь в розробках.
                     </p>
@@ -221,9 +231,9 @@
             <div id="list">
 
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <div class="row">
-                            <div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
                                 <img class="img-responsive fake-btn" onclick="d_toggle('#rapid')" src="./assets/icons/rapid.png" />
                             </div>
                         </div>
@@ -232,39 +242,23 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <div class="row">
-                            <div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
-                                <img class="img-responsive fake-btn" onclick="d_toggle('#research')" src="./assets/icons/research.png" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <h3>Дослідження і Розробки</h3>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="row" style="margin-top: 6em">
-
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
                                 <img class="img-responsive fake-btn"  onclick="d_toggle('#platform')" src="./assets/icons/edu_ex.png" />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-10 col-sm-offset-1">
-                                <h3>Платформа для обміну знаннями, досвідом, рішеннями</h3>
+                                <h3>Розвиток платформи для обміну знаннями, досвідом, рішеннями</h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
 
                         <div class="row">
-                            <div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
                                 <img class="img-responsive fake-btn" onclick="d_toggle('#opensource')" src="./assets/icons/work.png" />
                             </div>
                         </div>
