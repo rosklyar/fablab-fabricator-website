@@ -514,6 +514,10 @@
 
         <script>
             function m_toggle(id) {
+                $('html, body').animate({
+                    scrollTop: $("#memberships").offset().top
+                }, 100);
+
                 $("#mem-title").fadeToggle(200);
 
                 $(id).fadeToggle(200);
